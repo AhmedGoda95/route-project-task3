@@ -11,12 +11,106 @@
     <link rel="stylesheet" href="css/all.min.css" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/layout.css" />
+    <link rel="stylesheet" href="css/global.css" />
     <title>Home</title>
 </head>
 
 <body>
 
-    <h1>Home</h1>
+    <!-- Start Navbar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+            <a class="navbar-brand" href="">LOGO</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon rounded-circle d-flex justify-content-center align-items-center">
+                    <i class="fas fa-bars text-white"></i>
+                </span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="">الرئيسية <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/Company/aboutus.html">من نحن</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/Doctors/allDoctors.html">طاقم الاطباء</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/ContactUs/contactUs.html">تواصل معنا</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="pages/SearchOnDoctor/searchOnDoctor.html">ابحث عن طبيب</a>
+                    </li>
+                </ul>
+                <div class="navbar-auth">
+                    <button class="btn">
+                        <a href="pages/Auth/login.html">دخول</a>
+                    </button>
+                    <button class="btn mr-3">
+                        <a href="pages/Auth/signup.html">تسجيل</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+    <!-- Start Footer -->
+    <footer class="footer mt-5">
+        <div class="footer-upper">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-4 mb-4 mb-md-0">
+                        <div class="footer-logo d-flex align-items-center h-100">
+                            LOGO
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="footer-links">
+                            <h6><a href="#">الرئيسية</a></h6>
+                            <h6><a href="#">طاقم الاطباء</a></h6>
+                            <h6><a href="#">من نحن</a></h6>
+                            <h6><a href="#">الشروط والاحكام</a></h6>
+                            <h6><a href="#">سياسة الخصوصةي</a></h6>
+                            <h6><a href="#">تواصل معنا</a></h6>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-6">
+                        <div class="footer-contacts h-100 pt-sm-5 pt-4">
+                            <div>
+                                <p>
+                                    <span><i class="far fa-envelope"></i></span>
+                                    <a href="#">info@mail.com</a>
+                                </p>
+                                <p>
+                                    <span><i class="fas fa-mobile-alt"></i></span>
+                                    <a href="#">010123456789</a>
+                                </p>
+                            </div>
+                            <div class="footer-socials">
+                                <a href="#" class=" ml-2 d-inline-flex justify-content-center align-items-center rounded-circle"><i class="fab fa-facebook-f"></i></a>
+                                <a href="#" class=" ml-2 d-inline-flex justify-content-center align-items-center rounded-circle"><i class="fab fa-twitter"></i></a>
+                                <a href="#" class=" ml-2 d-inline-flex justify-content-center align-items-center rounded-circle"><i class="fab fa-instagram"></i></a>
+                                <a href="#" class="d-inline-flex justify-content-center align-items-center rounded-circle"><i class="fab fa-whatsapp"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyrights">
+            <p class="mb-0 bg-white text-center py-1">
+                Copyright © 2021 Website Name
+            </p>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
 
     <!-- Bootstrap JS -->
     <script src="js/jquery-3.5.1.slim.min.js"></script>
