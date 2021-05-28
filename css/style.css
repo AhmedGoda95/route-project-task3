@@ -1,0 +1,21 @@
+.icon{
+    background-color:orange;
+    color:white;
+    font-size:30px;
+    /* font-weight:bold; */
+    text-align:center;
+}
+.icon p{
+    color:white;
+    font-size:20px;
+    text-align:center;
+    padding:5px;
+    
+
+}
+.details p{
+    color:white;
+    background-color:teal;
+    font-size:20px;
+    text-align:center
+}
