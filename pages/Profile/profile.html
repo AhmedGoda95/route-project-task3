@@ -16,7 +16,69 @@
 
 <body>
 
-    <h1>profile</h1>
+    <section class="profile  ">
+        <div class="container ">
+            <div class=" row justify-content-center align-items-center ">
+
+
+                <div class=" col-lg-5 col-md-8 col-sm-8  text-center ">
+
+                    <h3>تعديل الملف الشخصي</h3>
+
+
+                    <input type="text" class="form-control my-4 text-right" id="" placeholder="-:الاسم">
+                    <input type="text" class="form-control my-4 text-right" id="" placeholder="-:رقم الهاتف">
+                    <input type="text" class="form-control my-4 text-right" id="" placeholder="-:البريد الاليكتروني" >
+
+                    <button class="btn btn-outline-info mb-4 px-5">حفظ</button> <br>
+                    <button type="button" class="btn btn-outline-danger  px-4" data-toggle="modal"
+                        data-target="#exampleModal">
+                        تغير كلمة المرور </button>
+
+                    <!-- Modal -->
+                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                        aria-hidden="true">
+                        <div class="modal-dialog">
+                            <div class="modal-content">
+                                <div class="modal-header">
+                                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                        <span aria-hidden="true">&times;</span>
+                                    </button>
+                                </div>
+                                <div class="modal-body">
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <input type="text" class="form-control w-50  my-3" id="OldPassword">
+                                        <label for="OldPassword" class="font-weight-bold ml-2"> -: كلمة المرور
+                                            القديمة</label>
+
+                                    </div>
+                                    <div class="d-flex justify-content-center align-items-center">
+                                        <input type="text" class="form-control w-50 my-3" id="NewPassword">
+                                        <label for="NewPassword" class="font-weight-bold  ml-2"> -: كلمة المرور
+                                            الجديدة</label>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    <button type="button" class="btn btn-primary">Save changes</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        
+
+
+    </section>
+
 
     <!-- Bootstrap JS -->
     <script src="../../js/jquery-3.5.1.slim.min.js"></script>
