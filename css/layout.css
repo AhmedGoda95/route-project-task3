@@ -27,6 +27,7 @@
   border-radius: 50px;
   transition: all 0.3s ease-in;
   border: 2px solid transparent;
+  padding: 0;
 }
 .navbar-auth button:hover {
     background-color: transparent;
@@ -34,6 +35,12 @@
 }
 .navbar-auth button a:hover {
   text-decoration: none;
+}
+.navbar-auth button a {
+  display: block;
+  text-align: center;
+  padding: .375rem .75rem;
+
 }
 .navbar-toggler-icon {
     width: 30px;

@@ -5,6 +5,9 @@ let userPassword = document.getElementById("userPassword");
 let userConfirmPassword = document.getElementById("userConfirmPassword");
 let acceptRules = document.getElementById("acceptRules")
 let registerBTN = document.getElementById("registerBTN")
+let showPassword = document.getElementById("showPassword")
+let showConfPassword = document.getElementById("showConfPassword")
+
 let users;
 if (JSON.parse(localStorage.getItem('allUsers')) === null) {
     users = []
@@ -140,3 +143,24 @@ function validateUserPassword(inputValue, inputErrorMSG) {
     }
 }
 
+// Change password input type
+showPassword.addEventListener('click', function () {
+    if (userPassword.getAttribute('type') === 'password') {
+        userPassword.removeAttribute('type')
+        userPassword.setAttribute('type', 'text')
+    }
+    else {
+        userPassword.removeAttribute('type')
+        userPassword.setAttribute('type', 'password')
+    }
+})
+showConfPassword.addEventListener('click', function () {
+    if (userConfirmPassword.getAttribute('type') === 'password') {
+        userConfirmPassword.removeAttribute('type')
+        userConfirmPassword.setAttribute('type', 'text')
+    }
+    else {
+        userConfirmPassword.removeAttribute('type')
+        userConfirmPassword.setAttribute('type', 'password')
+    }
+})
