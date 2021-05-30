@@ -1,22 +1,19 @@
-.btn-save
-{
-    background-color: #f6921e;
-    color:#ffff;
-   
-   
+.profile{
+    min-height: 100vh;
+}
+.btn-save {
+  background-color: #f6921e;
+  color: #ffff;
 }
 
-.btn-change-pass
-{
-    background-color: #305f71;
-    color: #ffff;
-    
+.btn-change-pass {
+  background-color: #305f71;
+  color: #ffff;
 }
-
-.close
-{
-    top: 15px;
-    right: 20px;
-    
+.profile-modal {
+    top: 15%;
 }
-
+.close {
+  top: 15px;
+  right: 20px;
+}
