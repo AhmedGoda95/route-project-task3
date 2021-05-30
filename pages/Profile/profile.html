@@ -11,57 +11,59 @@
     <link rel="stylesheet" href="../../css/all.min.css" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="../../css/profile.css" />
+    <link rel="stylesheet" href="../../css/global.css" />
     <title>Profile</title>
 </head>
 
 <body>
 
-    <section class="profile  ">
+    <section class="profile d-flex align-items-center">
         <div class="container ">
-            <div class=" row vh-100 justify-content-center align-items-center">
+            <div class="row">
+                <div class=" col-lg-6 col-md-8 col-sm-10 mx-auto">
+                    <h2 class="text-center mb-4">تعديل الملف الشخصي</h2>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="userName" placeholder="الاسم بالكامل">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="userPhone" placeholder="رقم الهاتف">
+                    </div>
+                    <div class="form-group">
+                        <input type="text" class="form-control" id="userEmail" placeholder="البريد الاليكتروني">
+                    </div>
+                    <button class="btn btn-save mb-2 btn-block  ">حفظ</button>
+                    <button type="button" class="btn btn-change-pass btn-block px-4" data-toggle="modal"
+                        data-target="#exampleModal">
+                        تعديل كلمة المرور </button>
 
-
-                <div class=" col-lg-5 col-md-8 col-sm-8  text-center ">
-
-                    <h3>تعديل الملف الشخصي</h3>
-
-
-                    <input type="text" class="form-control my-4 text-muted text-right font-weight-bold p-4   " id="" placeholder="الاسم بالكامل">
-                    <input type="text" class="form-control my-4 text-muted text-right font-weight-bold p-4   " id="" placeholder="رقم الهاتف">
-                    <input type="text" class="form-control my-4 text-muted text-right font-weight-bold p-4   " id="" placeholder="البريد الاليكتروني" >
-    <button class="btn btn-save mb-2 btn-block  ">حفظ</button> 
-    <button type="button" class="btn btn-change-pass btn-block px-4" data-toggle="modal"
-        data-target="#exampleModal">
-        تغير كلمة المرور </button>
-                   
 
                     <!-- Modal -->
-                    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                        aria-hidden="true">
+                    <div class="modal fade profile-modal" id="exampleModal" tabindex="-1"
+                        aria-labelledby="exampleModalLabel" aria-hidden="true">
                         <div class="modal-dialog">
                             <div class="modal-content">
-                                <div class="modal-header justify-content-center position-relative text-center">
-                                    
-                                    <h5 class="modal-title  " id="exampleModalLabel">Modal title</h5>
-                                    <button type="button" class="close position-absolute " data-dismiss="modal" aria-label="Close">
+                                <div class="modal-header justify-content-center position-relative border-0">
+                                    <h4 class="modal-title" id="exampleModalLabel">تعديل كلمة المرور</h4>
+                                    <button type="button" class="close position-absolute " data-dismiss="modal"
+                                        aria-label="Close">
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <div class="modal-body d-flex justify-content-center align-items-center">
-                                    <div >
-                                        <input type="password" class=" form-control px-5  my-3 text-center " placeholder=" كلمة المرور القديمة" id="OldPassword">
-                                        <input type="password" class="form-control px-5 my-3 text-center  " placeholder=" كلمة المرور الجديدة" id="NewPassword">
-
-
+                                <div class="modal-body">
+                                    <div class="form-group">
+                                        <input type="password" class=" form-control" placeholder=" كلمة المرور القديمة"
+                                            id="oldPassword">
                                     </div>
-                            
+                                    <div class="form-group">
+                                        <input type="password" class="form-control" placeholder=" كلمة المرور الجديدة"
+                                            id="newPassword">
+                                    </div>
+                                    <div class="form-group">
+                                        <input type="password" class="form-control"
+                                            placeholder="تاكيد كلمة المرور الجديدة" id="confirmNewPassword">
+                                    </div>
 
-                                   
-
-
-                                </div>
-                                <div class="modal-footer">
-                                    <button type="button" class="btn btn-primary ">Save changes</button>
+                                    <button type="button" class="btn btn-primary btn-block mt-4">حفظ</button>
                                 </div>
                             </div>
                         </div>
@@ -71,7 +73,7 @@
 
             </div>
         </div>
-        
+
 
 
     </section>
