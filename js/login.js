@@ -23,7 +23,6 @@ function login() {
     }
 }
 loginBTN.addEventListener('click', function () {
-    console.log("Testing...")
     login()
 })
 // Clear inputs
@@ -59,6 +58,8 @@ function validateUserPhone(inputValue, inputErrorMSG) {
     if (phoneRegex.test(inputValue.value)) {
         let res = users.filter((phone) => phone.phone === inputValue.value)
         if (res.length > 0) {
+            localStorage.setItem('userLogged', JSON.stringify(res[0]))
+            console.log("Testing...", res[0])
             inputErrorMSG.style.display = 'none'
             return true
         } else {
