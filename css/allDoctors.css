@@ -3,3 +3,8 @@
 {
     color: #17a2b8;
 }
+.doctor-name a
+{
+    text-decoration: none;
+}
+
