@@ -1,0 +1,18 @@
+.back-ground
+{
+    background-image: url(../images/Department.bg.jpg);
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+}
+.layer
+{
+    background-color: rgba(0,0, 0, 0.6);
+    width: 100%;
+    height: 100%;
+}
+a
+{
+    text-decoration: none;
+}
