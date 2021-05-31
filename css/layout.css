@@ -48,6 +48,15 @@
     background-color: #f6921e;
     font-size: 16px;
 }
+.logout {
+  color: #f6921e;
+  font-size: 25px;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+.logout:hover {
+  color: #fff;
+}
 /* End Header */
 
 /* Start Footer */

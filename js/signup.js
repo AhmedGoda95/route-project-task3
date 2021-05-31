@@ -42,6 +42,7 @@ function addNewUser() {
         localStorage.setItem('allUsers', JSON.stringify(users))
         registerBTN.setAttribute('href', '../../index.html')
         localStorage.setItem('isLogged', true)
+        localStorage.setItem('userLogged', JSON.stringify(newUser))
         clearIputs()
     }
 }
