@@ -1,6 +1,8 @@
-.bg-info
+.bg-teal
 {
     border-radius: 3px;
+    background-color: teal;
+
 }
 a {
     text-decoration: none;
