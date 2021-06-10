@@ -11,48 +11,46 @@
     <link rel="stylesheet" href="../../css/all.min.css" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="../../css/global.css">
-   <!--  -->
+    <!--  -->
     <link rel="stylesheet" href="../../css/doctorDetails.css" />
     <!--  -->
     <title>Docotr Details</title>
 </head>
 
 <body>
-    <section id="doctorDetails">
+    <section id="doctorDetails" class="doctor-details">
 
-        <div class="text-center text-info">
+        <div class="text-center">
 
-            <h1 class=" p-4">Doctor Details</h1>
+            <h1 class="my-4">تفاصيل الدكتور </h1>
 
         </div>
 
         <div class=" container">
 
-            <div class="row">
+            <div class="row" id="details">
 
-            
+                <div class="col-md-4">
 
-                <div class=" col-md-4 ">
-
-                    <div class="bg-info mb-3 p-3 text-center">
+                    <div class="shadow-sm mb-3 p-3 text-center">
                         <div>
-                            <img src="client-1.png" alt="" class=" w-100">
+                            <img src="" alt="" class="img-fluid" id="doctor-photo">
                         </div>
 
                         <div class=" doctor-details text-center p-2 text-light">
-                            <h3>اسم الطبيب</h3>
-                            <h4>التخصص</h4>
+                            <h3 id="d-name"> </h3>
+                            <h5 id="department"></h5>
                         </div>
                     </div>
 
                 </div>
 
-                <div class=" col-md-12">
+                <div class="col-md-12">
 
-                    <div class=" bg-info  text-light text-center">
+                    <div class="prag text-light text-right mt-4">
 
-                        <h2 class="mb-3 p-3 ">معلومات عن الطبيب</h2>
-                        <p class=" prag">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
+                        <h2 class="mb-3">معلومات عن الطبيب</h2>
+                        <p class="mb-0 rounded p-3 shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio
                             deleniti, perferendis nostrum sit officiis debitis nisi numquam rerum dignissimos
                             perspiciatis nobis. Modi sint asperiores quasi possimus unde nam? Dolor, optio molestiae
                             exercitationem atque facilis sequi recusandae eius cum facere nobis sed, id eos nihil
@@ -72,7 +70,7 @@
         <!--  -->
 
 
-        
+
 
     </section>
 
@@ -81,6 +79,7 @@
     <script src="../../js/jquery-3.5.1.slim.min.js"></script>
     <script src="../../js/popper.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/doctorDetails.js"></script>
 </body>
 
 </html>
