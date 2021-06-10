@@ -1,5 +1,13 @@
-.prag
+.doctor-details h1, .prag h2 {
+    color: #245264;
+}
+.doctor-details h3, .doctor-details h5 {
+    color: #f6921e;
+}
+.prag p
 {
     line-height: 1.8rem;
-    font-size: 20px;
+    font-size: 18px;
+    color: #fff;
+    background-color: #245264;
 }
