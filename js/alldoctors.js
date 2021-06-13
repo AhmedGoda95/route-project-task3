@@ -16,16 +16,16 @@ function viewAllDoctors() {
 
     for (let i = 0; i < allDoctors.length; i++) {
         container += `  <div class="col-lg-3 col-md-4 col-sm-6">
-
+        <div class="mb-3 p-3 doctor-item bg-white">
       <a href="./doctorDetails.html" class="text-decoration-none">
-          <div class="mb-3 p-3 doctor-box shadow-sm">
+          
               <div class="doctor-img mx-auto">
                   <img src =${allDoctors[i].photo} alt="doctor" class="rounded-circle shadow">
                 </div>
               <h4 class="mt-3">${allDoctors[i].name}</h4>
               <h6 class="">اسم القسم</h6>
-          </div>
       </a>
+      </div>
 
   </div>`
     }

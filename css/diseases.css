@@ -1,11 +1,9 @@
-h1
-{
-    color: teal;
+.diseases a {
+  color: #f6921e;
 }
-h5
-{
-    color: orange;
+.disease-item {
+  transition: all 0.3s ease-in;
 }
-.demo{
-    background-color: teal;
+.disease-item:hover {
+  box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
 }
