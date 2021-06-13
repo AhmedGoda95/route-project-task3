@@ -1,14 +1,7 @@
+.disease-details h2 {
+    color: #f6921e;
+}
+.disease-details p {
+    font-size: 18px;
+}
 
-.fit-content
-{
-    width: fit-content;
-    
-}
-h4{
-    font-size: 16px;
-    padding: 5px;
-}
-h5{
-    font-size: 16px
-
-}
