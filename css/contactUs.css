@@ -1,11 +1,22 @@
+.contact {
+    background-image: url(../images/headerBG.png);
+    background-repeat: no-repeat;
+    background-size: 100% 50%;
+}
 .contact-data > div {
     border-radius: 12px;
+}
+.contact-data .form-control {
+    padding: .375rem .75rem;
+    padding: 10px 12px;
+    height: auto;
 }
 .contact-data textarea {
     resize: none;
 }
 .contact-data .btn
 {
+    transition: all .3s ease-in;
     color: #fff;
     background-color: #f6921e;
     border-radius: 50px;
@@ -14,6 +25,9 @@
     font-size: 18px;
     font-weight: 600;
 }
+.contact-data .btn:hover {
+    background-color: #305f71;
+}
 .item-img {
-    width: 75%;
+    width: 60%;
 }
