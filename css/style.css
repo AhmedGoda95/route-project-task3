@@ -1,3 +1,4 @@
+
 .icon {
   background-color: #f6921e;
   color: white;
@@ -29,4 +30,27 @@
 }
 .home .card-body h4:hover {
     background-color: #f6921e;
+}
+.main-article-img {
+  height: 400px;
+}
+.home-articles {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.home-articles a {
+  color: #333;
+}
+.home-articles .article-img {
+  width: 75px;
+}
+.home-articles .article-para {
+  width: calc(100% - 85px);
+}
+.single-article {
+  transition: all .3s ease-in;
+}
+.single-article:hover {
+  box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 }
