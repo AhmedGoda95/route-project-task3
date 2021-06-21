@@ -31,3 +31,23 @@
 .item-img {
     width: 60%;
 }
+
+@media (max-width: 991px) {
+    .item-img {
+        width: 85%;
+    }
+}
+
+@media (max-width: 767px) {
+    .contact {
+        background-image: none;
+        background-color: #215265;
+        padding-bottom: 15px;
+    }
+    .contact-left-side {
+        order: 1;
+    }
+    .contact-right-side {
+        order: 2;
+    }
+}

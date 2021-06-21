@@ -17,3 +17,7 @@ h1 {
 .auth-box .form-check + .errorMSG {
   width: fit-content;
 }
+
+.section-height {
+  min-height: 55vh;
+}
