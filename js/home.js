@@ -17,4 +17,5 @@ let logoutBTN = document.getElementById("logoutBTN");
 // Logout
 logoutBTN.addEventListener('click', function () {
     localStorage.setItem('isLogged', false)
+    localStorage.removeItem('userLogged')
 })

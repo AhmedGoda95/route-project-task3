@@ -24,14 +24,20 @@
                     <h2 class="text-center mb-4">تعديل الملف الشخصي</h2>
                     <div class="form-group">
                         <input type="text" class="form-control" id="userName" placeholder="الاسم بالكامل">
+                        <small id="userNameError" class="form-text alert alert-danger errorMSG"></small>
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control" id="userPhone" placeholder="رقم الهاتف">
+                        <small id="userPhoneError" class="form-text alert alert-danger errorMSG"></small>
+
                     </div>
                     <div class="form-group">
                         <input type="text" class="form-control" id="userEmail" placeholder="البريد الاليكتروني">
+                        <small id="userEmailError" class="form-text alert alert-danger errorMSG"></small>
+
                     </div>
-                    <button class="btn btn-save mb-2 btn-block  ">حفظ</button>
+                    <button class="btn btn-save mb-2 btn-block" data-toggle="modal" data-target=""
+                        id="saveInfoBTN">حفظ</button>
                     <button type="button" class="btn btn-change-pass btn-block px-4" data-toggle="modal"
                         data-target="#exampleModal">
                         تعديل كلمة المرور </button>
@@ -53,17 +59,27 @@
                                     <div class="form-group">
                                         <input type="password" class=" form-control" placeholder=" كلمة المرور القديمة"
                                             id="oldPassword">
+                                        <small id="oldPasswordError"
+                                            class="form-text alert alert-danger errorMSG"></small>
+
                                     </div>
                                     <div class="form-group">
                                         <input type="password" class="form-control" placeholder=" كلمة المرور الجديدة"
                                             id="newPassword">
+                                        <small id="newPasswordError"
+                                            class="form-text alert alert-danger errorMSG"></small>
+
                                     </div>
                                     <div class="form-group">
                                         <input type="password" class="form-control"
                                             placeholder="تاكيد كلمة المرور الجديدة" id="confirmNewPassword">
+                                        <small id="confirmNewPasswordError"
+                                            class="form-text alert alert-danger errorMSG"></small>
+
                                     </div>
 
-                                    <button type="button" class="btn btn-block mt-4">حفظ</button>
+                                    <button type="button" class="btn btn-block mt-4" data-dismiss=""
+                                        id="savePasswordBTN" >حفظ</button>
                                 </div>
                             </div>
                         </div>
@@ -74,7 +90,17 @@
             </div>
         </div>
 
-
+        <div class="modal fade" id="successUpdated" tabindex="-1" aria-labelledby="exampleModalLabel"
+            aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-body">
+                        <h3 class="mb-0 text-success py-4 text-center" id="updatedMSG">
+                        </h3>
+                    </div>
+                </div>
+            </div>
+        </div>
 
     </section>
 
@@ -83,6 +109,7 @@
     <script src="../../js/jquery-3.5.1.slim.min.js"></script>
     <script src="../../js/popper.min.js"></script>
     <script src="../../js/bootstrap.min.js"></script>
+    <script src="../../js/profile.js"></script>
 </body>
 
 </html>

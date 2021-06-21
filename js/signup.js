@@ -132,7 +132,7 @@ function validateUserEmail(inputValue, inputErrorMSG) {
         return false
     }
 }
-// Vaildate user phone
+// Vaildate user confirm password
 function validateUserPassword(inputValue, inputErrorMSG) {
     if (inputValue.value !== userPassword.value) {
         inputErrorMSG.innerHTML = 'تاكيد كلمة المرور غير صحيح'

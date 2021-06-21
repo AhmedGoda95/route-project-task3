@@ -4,6 +4,8 @@ let dDepartment = document.getElementById("department");
 
 doctor = { name: "محمد احمد", image: "../../images/D-images/client-1.png", depart: " دكتور عظام" };
 
-dName.innerHTML = doctor.name;
-dDepartment.innerHTML = doctor.depart
-dimage.src = doctor.image
+(function () {
+    dName.innerHTML = doctor.name;
+    dDepartment.innerHTML = doctor.depart
+    dimage.src = doctor.image
+})()

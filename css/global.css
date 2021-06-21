@@ -9,3 +9,11 @@ body {
 h1 {
   color: #305f71;
 }
+
+/* error MSGs */
+.errorMSG {
+  display: none;
+}
+.auth-box .form-check + .errorMSG {
+  width: fit-content;
+}

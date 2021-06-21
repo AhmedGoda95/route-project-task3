@@ -129,11 +129,3 @@
 .auth-form .forget-password a:hover, .auth-form .btn-register a:hover, .auth-form .login-btn a:hover {
   text-decoration: none;
 }
-
-/* error MSGs */
-.errorMSG {
-  display: none;
-}
-.auth-box .form-check + .errorMSG {
-  width: fit-content;
-}

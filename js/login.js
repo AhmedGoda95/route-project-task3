@@ -8,6 +8,7 @@ if (JSON.parse(localStorage.getItem('allUsers')) === null) {
 } else {
     users = JSON.parse(localStorage.getItem('allUsers'))
 }
+localStorage.removeItem('changePassword')
 
 // Login
 function login() {
