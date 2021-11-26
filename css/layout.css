@@ -1,6 +1,6 @@
 /* Start Header */
 .navbar {
-  background-color: #305f71;
+  background-color: #161b1d;
 }
 .navbar .navbar-brand {
   color: #f6921e;
@@ -61,7 +61,7 @@
 
 /* Start Footer */
 .footer .footer-upper {
-  background-image: url('../images/footerBG.png');
+  background-color: #161b1d;
   background-repeat: no-repeat;
   background-size: cover;
   padding-top: 70px;
@@ -106,7 +106,7 @@
   border-color: #f6921e;
 }
 .footer .footer-copyrights {
-  color: #305f71;
+  color: #161b1d;
   font-weight: 600;
 }
 /* End Footer */
